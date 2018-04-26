@@ -1,0 +1,77 @@
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #000;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #eee;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-button {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 43.1875px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 278.594px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 139.297px 21.5938px;
+    transform-origin: 139.297px 21.5938px;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(85, 190, 141) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font: normal normal 400 normal 14.4px / 14.4px Montserrat, Arial, sans-serif;
+    margin: 80px 0px 64px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 13.6px 48px;
+    transition: background-color 0.25s ease-out 0s, color 0.25s ease-out 0s;
+} 
+ @media (min-width: 0px) and (max-width: 768px) { 
+  /* The Modal (background) */
+    .modal {
+         width: 96%; /* Full width */
+        height: 96%; /* Full height */
+        padding-top: 170px; /* Location of the box */
+        
+    }
+
+    /* Modal Content */
+    .modal-content {
+         
+         margin:2% !important ;
+         
+        padding: 5px;
+        width: 80%;
+       
+    }
+ }
